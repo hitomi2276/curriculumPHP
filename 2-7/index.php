@@ -10,6 +10,8 @@ $collor["yellow"] = "黄色";
 
 var_dump($collor);
 
+?>
+
 <?php
 echo '<br>';
 echo "1. プルリクエスト（マージリクエスト）"."<br>";
