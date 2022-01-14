@@ -33,3 +33,26 @@ echo "データベース管理システム（DBMS）に対する問い合わせ�
 echo "3. クエリログ"."<br>";
 echo "クライアントからの MySQL Server への接続・接続解除の情報、およびクライアントから実行された全ての SQL クエリを出力してくれるログ"."<br>";
 ?>
+
+<?php
+echo "FizzBuzz問題修正";
+echo "<br>";
+
+for($num=1;$num<=100;$num++) {
+    
+    if($num % 3 === 0 && $num % 5 === 0) {
+        echo "FizzBuzz!!";        
+        echo "<br>";
+    } elseif($num % 3 === 0) {
+        echo "Fizz!";        
+        echo "<br>";
+    } elseif($num % 5 === 0) {
+        echo "Buzz!";        
+        echo "<br>";
+    } else {
+        echo "$num";        
+        echo "<br>";
+    } 
+}
+
+?>
